@@ -98,7 +98,7 @@ body {
     margin-left: auto;
 }
 .contacts-nav .item+ .item{
-    margin-left: 12px;
+    margin-left: 30px;
 }
 .logo {
     color: var(--title-text-color);
@@ -144,6 +144,7 @@ ul{
 .phone:hover{
     color: var(--accent-color);
 }
+
 .hero{
 background-color: #2F303A;
 color:#ffffff;
@@ -151,7 +152,10 @@ font-size: 44px;
 line-height: 60pt;
 font-weight: 900;
 text-align: center;
+padding-top: 195px;
+padding-bottom: 200px;
 }
+
 .button{
     font-size: 16px;
     color:#ffffff;
