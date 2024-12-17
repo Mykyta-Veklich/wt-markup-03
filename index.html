@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page markup</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
@@ -11,6 +13,7 @@
 </head>
 <body>
     <header>
+        <div class="page-container">
         <nav class="container main-nav">
             <a href="./index.html" class="logo">
                 <span>Dev</span>Studio</a>
@@ -40,6 +43,7 @@
         </li>
         </ul>
         </nav>
+        </div>
     </header>
     <main>
         <section class="hero">
@@ -49,6 +53,8 @@
             <button type="submit" value="Submit" class="button">Замовити послугу</button>
         </section>
             <section>
+                <div class="section">
+                <div class="page-container">
                 <ul class="images-container">
                 <li class="image-container">
                 <div class="flex-container">
@@ -89,19 +95,20 @@
                 <p class="p">Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI століття.</p>
                 </li>
             </ul>
+            </div>
+            </div>
             </section>
-            <section>
-                <h2 class="works">Роботи на яких спеціалізуємось</h2>
-                <ul>
-                    <div class="container-images">
+            <section class="works-section">
+                <h2 class="works-title">Роботи на яких спеціалізуємось</h2>
+                <ul class="page-container container-images">
                     <li>
-                    <img class="image" src="./images/box1.jpg"
+                    <img src="./images/box1.jpg"
                     alt="Розробка програмного продукту"
                     width="370" height="294"/>
                     </li>
 
                     <li>
-                    <img class="image"
+                    <img
                     src="./images/box2.jpg"
                     alt="Планування оптимальних рішень"
                     width="370" height="294"
@@ -109,17 +116,16 @@
                     </li>
 
                     <li>
-                    <img class="image"
+                    <img
                     src="./images/box3.jpg"
                     alt="Розробка маркетингових стратегій"
                     width="370" height="294"
                     />
                     </li>
-                    </div>
                 </ul>
             </section>
 
-            <section class="team section">
+            <section class="team">
                 <div class="container">
                 <h2 class="team-title">Наша команда</h2>
                 <ul class="team-cards list">
@@ -305,6 +311,7 @@
                 </div>
             </section>
             <footer class="footer">
+            <div class="page-container">
             <a class="footer-logo" href="./index.html"><span>Dev</span>Studio</a>
             <div class="address">
                 <ul>
@@ -360,7 +367,9 @@
                     </svg>
                 </button>
             </form>
+            </div>
             </footer>
     </main>
+    </div>
 </body>
 </html>

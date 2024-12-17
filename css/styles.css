@@ -48,7 +48,19 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-
+header{
+    position: relative;
+    width: 1600px;
+    height: 80px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    }
 .list {
         list-style: none;
         padding-left: 0;
@@ -72,10 +84,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+
 .main-nav{
     display: flex;
     align-items: center;
@@ -145,14 +154,19 @@ ul{
 }
 
 .hero{
+display: flex;
+flex-direction: column;
 background-color: #2F303A;
-color:#ffffff;
-font-size: 44px;
-line-height: 1.4;
-font-weight: 900;
-text-align: center;
-padding-top: 195px;
-padding-bottom: 200px;
+padding: 100px 0;
+align-items: center;
+justify-content: center;
+}
+.hero h1{
+    color:#ffffff;
+    font-size: 44px;
+    line-height: 1.4;
+    font-weight: 900;
+    text-align: center;
 }
 
 .button{
@@ -232,7 +246,10 @@ padding-bottom: 200px;
     margin-top: 30px;
 }
 
-.works{
+.works-section{
+    padding: 50px 0;
+}
+.works-title{
     font-size: 36px;
     font-weight: 700;
     text-align: center;
@@ -240,21 +257,18 @@ padding-bottom: 200px;
 
 .container-images{
     display: flex;
-    border-radius: 10px;
     justify-content: center;
-    align-items: center;
+    gap: 20px;
 }
 
-.image{
+.container-images img{
     border-radius: 10px;
-    margin-left: 29px;
 }
-
-
 
 .team{
     background-color:#F5F4FA;
-    margin-top: 50px;
+    padding: 94px 0;
+    text-align: center;
 }
 .team-title{
     font-size: 36px;
@@ -449,4 +463,9 @@ padding-bottom: 200px;
     fill:#ffffff;
     width: 24px;
     height: 24px;
+}
+.page-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
